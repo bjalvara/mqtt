@@ -1,0 +1,2 @@
+Documents\GitHub\mqtt
+.\.venvs\ECE140_venv\Scripts\activate

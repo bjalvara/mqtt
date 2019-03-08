@@ -5,4 +5,4 @@ MQTT_SERVER = "192.168.137.197"
 MQTT_PATH = "test_channel"
 
 
-publish.single(MQTT_PATH, " yoyo", hostname=MQTT_SERVER)
+publish.single(MQTT_PATH, "LED off", hostname=MQTT_SERVER)

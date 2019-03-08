@@ -29,7 +29,7 @@ def on_message(client, userdata, msg):
     if str(msg.payload) == "LED on":
         GPIO.output(ledGPIOnum,GPIO.HIGH)
     elif str(msg.payload) == "LED off":
-        GPIO.output(ledGPIOnum,GPIO.low)
+        GPIO.output(ledGPIOnum,GPIO.LOW)
 
 client.on_connect = on_connect
 client.subscribe(MQTT_PATH)
