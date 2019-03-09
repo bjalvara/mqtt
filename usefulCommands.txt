@@ -1,0 +1,9 @@
+#path
+Documents\GitHub\mqtt
+.\.venvs\ECE140_venv\Scripts\activate
+
+#subscribe
+mosquitto_sub -h localhost -v -t test_channel
+
+#publish
+mosquitto_pub -h localhost -t test_channeln-m ""
