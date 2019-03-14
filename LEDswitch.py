@@ -3,8 +3,8 @@ import paho.mqtt.client as mqtt
 #rasberry pi IO
 import RPi.GPIO as GPIO
 # define our server and Channel name:
-MQTT_SERVER = "localhost"
-MQTT_PATH = "test_channel"
+MQTT_SERVER = "192.168.137.110"
+MQTT_PATH = "broadcast"
 
 #setup LED
 ledGPIOnum = 26 #pin number on PI

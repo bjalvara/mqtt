@@ -7,3 +7,9 @@ mosquitto_sub -h localhost -v -t test_channel
 
 #publish
 mosquitto_pub -h localhost -t test_channeln-m ""
+
+#Callbacks will be called to allow the application to prosses
+events as necessary
+
+#Constructor/reinitialise
+Client(client_id="", clean_session=True, userdata=None, protocol=MQTTV311, transport="tcp")
